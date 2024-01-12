@@ -3,8 +3,8 @@ from datetime import datetime
 from tqdm import tqdm
 from time import sleep
 import xlsxwriter
-oper = "vgrade_module"
-default_auth = "_gid=GA1.2.1716747121.1685722542; PHPSESSID=jius3llf0t7mbdrpjuehqm33e4; _ga_9ET3S5JW2T=GS1.1.1685722542.1.1.1685722789.0.0.0; _ga=GA1.2.1369650560.1685722542; _gat_gtag_UA_113244794_1=1"
+oper = ""
+default_auth = ""
 auth = input("Please enter auth token (say \"def\" to set to default): ")
 
 def main(auth):
